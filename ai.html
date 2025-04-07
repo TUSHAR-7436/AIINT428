@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Gardening Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .t-color {
+            color:rgb(139, 0, 23);
+        }
+    </style>
+</head>
+<body>
+    <header class="t-color">
+        AI Gardening Assistant - Your Green Thumb Companion
+    </header>
+
+    <div class="main-content">
+        <div class="content">
+            <h2 style="color: rgb(139, 0, 23);">What is the AI Gardening Assistant?</h2>
+            <p >The AI Gardening Assistant is a cutting-edge tool designed to help you with all your gardening needs. Whether you're a beginner or an expert, this assistant provides tailored advice on plant care, soil management, watering schedules, pest control, and more!</p>
+            <div class="image-container">
+                <div class="image-overlay">
+                    <img src="garden1.jpeg" alt="Garden">
+                </div>
+            </div>
+
+            <p >Our AI is trained to give accurate and helpful gardening tips based on your specific needs and preferences. You can ask questions about plant growth, troubleshooting issues, or even receive personalized gardening plans.</p>
+
+            <button class="button" onclick="startChat()">Chat with the AI Gardening Bot</button>
+        </div>
+
+        <div id="chat-container">
+            <div id="chat-box">
+                <div class="message bot">Welcome to the AI Gardening Assistant! How can I help your garden grow today?</div>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your gardening question here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function startChat() {
+            alert('Welcome to the AI Gardening Assistant! Ask me anything about your garden or plants.');
+        }
+    </script>
+
+    
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/04/06/13/20250406133955-7FHXAO51.js"></script>
+</body>
+</html>
